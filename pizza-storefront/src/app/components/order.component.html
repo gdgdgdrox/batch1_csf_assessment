@@ -1,0 +1,7 @@
+<h1>Orders for {{email}}</h1>
+<div *ngFor="let os of orderSummaries">
+    <p>Order Id: {{os.order_id}}</p>
+    <p>Amount: ${{os.amount}}</p>
+    <br>
+</div>
+
